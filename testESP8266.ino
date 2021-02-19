@@ -1,5 +1,10 @@
 /*
   Created by SENSORVN.COM, February 19, 2021.
+  Wiring
+  VCC -> 3.3V
+  GND -> GND
+  SCL -> GPIO3
+  SDO -> GPIO4
 */
 const int SDO = 4; //SDO
 const int SCL_ = 3;//SCL
