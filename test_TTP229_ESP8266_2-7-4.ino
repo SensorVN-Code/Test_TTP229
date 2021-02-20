@@ -37,10 +37,10 @@ void setup()
   pinMode(LED,OUTPUT); 
   pinMode(SCL_,OUTPUT); 
   pinMode(SDO, INPUT); 
-  println("Calibrating Sensor .................. ");
+  Serial.println("Calibrating Sensor .................. ");
   delay(5000);//calibration
   digitalWrite(LED,HIGH);
-  print("Done");
+  Serial.print("Done");
 } 
 
 void loop() 
